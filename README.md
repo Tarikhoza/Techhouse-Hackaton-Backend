@@ -1,5 +1,5 @@
 # Techhouse-Hackaton-Backend
-This script is a Python web application using Flask and some computer vision libraries to perform image segmentation on an input image of a plank to identify and mask defects.
+This script is a Python web application using Flask and some computer vision libraries to perform image segmentation on an input image of a plank to identify and mask defects. This script, the frontend and the ML modell got as the 1.place at the Techhouse Mobilathon Hackaton 2021 for the technical challenge.
 
 # How to use
 Install a conda enviroment with python3.8
@@ -22,22 +22,26 @@ Start Flask server with:
 
     python App.py
 
+Connect to the server with the browser:
+
+    localhost:8000
+
 # Here are some example outputs from the model:
-## 1. Input
-<img src="static/images/img2.jpg">
+<img src="collage.jpeg">
 
-## 1. Output
-<img src="static/images/mask-img2.jpg">
+Most of the AI training and research was done by my Friends 
+<a href="https://github.com/hal3e">@hal3e</a>,
+<a href="https://github.com/MujkicA">@MujkicA</a> and
+<a href="https://github.com/enizimus">@enizimus</a>
 
-## 2. Input
-<img src="static/images/example1.jpeg">
 
-## 2. Output
-<img src="static/images/mask-example1.jpeg">
+Here is a video of the frontend written by <a href="https://github.com/Salka1988">@Salka1988</a>:
 
-## 3. Input
-<img src="static/images/example2.jpeg">
+<video src="frontend.gif">
 
-## 3. Output
-<img src="static/images/mask-example2.jpeg">
+The frontend and the ML training scripts are not the part of this repository. If you are interested how the code looks like please contact the other team members.
+
+At last here is a image of the whole team that participated on the hackaton.
+
+<img src="hackaton_winner.jpeg">
 
