@@ -1,5 +1,5 @@
 # Techhouse-Hackaton-Backend
-This script is a Python web application using Flask and some computer vision libraries to perform image segmentation on an input image of a plank to identify and mask defects. This script, the frontend and the ML modell got as the 1.place at the Techhouse Mobilathon Hackaton 2021 for the technical challenge.
+This script is a Python web application using Flask and some computer vision libraries to perform image segmentation on an input image of a plank to identify and mask defects. This script, the frontend and the ML modell got the 1. place at the Techhouse Mobilathon Hackaton 2021 for the technical challenge.
 
 # How to use
 Install a conda enviroment with python3.8
