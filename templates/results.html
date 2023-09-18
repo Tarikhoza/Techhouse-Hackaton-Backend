@@ -1,0 +1,32 @@
+ {% extends "layout.html" %}
+ {% block body %}
+
+
+
+
+<div>
+  <button onclick="hide()" class="btn btn-primary">Toggle view</button>
+</div>
+
+<div style="height:100%;width:100%" class="d-flex">
+ <div style="height:100%;widht:50%;position:absolute" class="container d-flex justify-content-center">
+    <iframe style="height:100%;width:100%;position: absolute"  src="{{"/static/plots/"+file+".html"}}" title="description"></iframe>
+    <iframe id="ontop" style="height:100%;width:100%;position: absolute;"  src="{{"/static/plots/mask-"+file+".html"}}" title="description"></iframe>
+  </div>
+</div>
+
+  <script>
+    var hidden=0;
+    function hide(){
+      if(hidden){
+        document.getElementById("ontop").style.display="none";
+        hidden=!hidden;
+      }
+      else{
+        document.getElementById("ontop").style.display="block";
+        hidden=!hidden;
+      }
+    }
+
+  </script>
+  {% endblock %}

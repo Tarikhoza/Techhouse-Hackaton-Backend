@@ -1,0 +1,15 @@
+ {% extends "layout.html" %}
+
+
+{% block body %}
+
+
+  <div class="container d-flex border w-25 h-25 bg-gray p-2 m-2 mb-5">
+   <form method=post enctype=multipart/form-data>
+        <h5>Upload a image and get the data</h5>
+
+        <input type=file name=file>
+        <input type=submit value=Upload>
+    </form>
+  </div>
+{% endblock %}
