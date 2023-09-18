@@ -37,7 +37,7 @@ Most of the AI training and research was done by my Friends
 
 Here is a video of the frontend written by <a href="https://github.com/Salka1988">@Salka1988</a>:
 
-<video src="frontend.gif">
+<img src="frontend.gif">
 
 The frontend and the ML training scripts are not the part of this repository. If you are interested how the code looks like please contact the other team members.
 
